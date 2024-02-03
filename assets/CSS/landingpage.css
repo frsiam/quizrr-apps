@@ -1,0 +1,9 @@
+header{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../images/f9fad17ce2f232a4e5ef2e5d91a1bdcc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgba(151, 144, 219, 0.9); */
+    background-color: rgba(0, 0, 0, 0.5);
+}
