@@ -67,5 +67,16 @@ nav{
     color: #5A5781;
 }
 .card{
-    background-color: #FEF9FF;
+    background-color: #faf3fc;
+    border: none !important;
+}
+.seebtn{
+    border: 1px solid #736CED;
+    background-color: #736CED;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
 }
