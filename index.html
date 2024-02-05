@@ -4,8 +4,74 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Landing Page</title>
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="/assets/CSS/swiper-bundle.min.css" />
+
+    <!-- css link  -->
     <link rel="stylesheet" href="assets/CSS/landingpage.css">
+
+    <!-- bootstrap  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <style>
+        html,
+        body {
+          position: relative;
+          height: 100%;
+        }
+    
+        .swiper {
+          width: 240px;
+          height: 320px;
+        }
+    
+        .swiper-slide {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 18px;
+          font-size: 22px;
+          font-weight: bold;
+          color: #fff;
+        }
+    
+        .swiper-slide:nth-child(1n) {
+          /* background-image: url(/assets/images/Group\ 85.png); */
+          background-repeat: no-repeat;
+          /* background-blend-mode: normal; */
+          background-color: chartreuse;
+          background-size: contain;
+        }
+    
+        .swiper-slide:nth-child(2n) {
+          /* background-image: url(/assets/images/Group\ 86.png); */
+          background-repeat: no-repeat;
+          background-blend-mode: normal;
+          background-color: cadetblue;
+          background-size: cover;
+        }
+    
+        .swiper-slide:nth-child(3n) {
+          /* background-image: url(/assets/images/sample2.png); */
+          background-repeat: no-repeat;
+          background-blend-mode: normal;
+          background-color: aqua;
+          background-size: contain;
+        }
+    
+        .swiper-slide:nth-child(4n) {
+          /* background-image: url(/assets/images/sample4.png); */
+          background-repeat: no-repeat;
+          background-blend-mode: normal;
+          background-color: brown;
+        }
+        /* .swiper-slide:nth-child(5n) {
+          background-image: url(/assets/images/sample4.png);
+          background-repeat: no-repeat;
+          background-blend-mode: normal;
+          background-color: brown;
+        } */
+      </style>
   </head>
   <body>
     <header class="main">
@@ -48,23 +114,50 @@
               </nav>
         </div>
         <!-- hero content  -->
-          <div class="container customHero">
+        <div class="container customHero">
             <div class="row mx-5">
-                <div class="col-md-5 d-flex flex-column justify-content-center align-items-start">
+                <div class="col-md-4 d-flex flex-column justify-content-center align-items-start">
                     <div class="left-heading">
                         <h1 class="text-light ">Multistep Quiz Form</h1>
-                        <h1 class="">Let's Play!</h1>
+                        <h1 class="play">Let's Play!</h1>
                     </div>
-                    <div>
-                        <div class="btn btn-light">Play Now</div>
-                        <div class="btn btn-primary">Contact Us</div>
+                    <div class="d-flex flex-row space-between">
+                        <button type="button" class="pbtn">Play Now</button>
+                        <button type="button" class="cbtn">Contact Us</button>
                     </div>
                 </div>
-                <div class="col-md-7 d-flex flex-column justify-content-center align-items-start">
-                    <img class="img-fluid" src="/assets/images/Group 85.png" alt="">
-                </div>
-            </div>
+                <!-- <div class="col-md-8 d-flex flex-column justify-content-center align-items-start">
+                    <img class="img-fluid" src="/assets/images/Group 85.png" alt=""> 
+                </div> -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="/assets/images/Group 85.png" alt="" class="img-fluid">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="/assets/images/Group 86.png" alt="" class="img-fluid">
+                      </div>
+                      <div class="swiper-slide">
+                        <img class="img-fluid" src="/assets/images/sample2.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img class="img-fluid" src="/assets/images/sample4.png" alt="">
+                      </div>
+                    </div>
+                  </div>
           </div>
+        </div>
     </header>
+
+    <!-- Swiper JS -->
+  <script src="/assets/JS/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "cards",
+      grabCursor: true,
+    });
+  </script>
   </body>
 </html>
