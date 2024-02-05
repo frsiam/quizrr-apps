@@ -21,25 +21,29 @@
         }
     
         .swiper {
-          width: 240px;
-          height: 320px;
+          width: 95%;
+          height: 95%;
+          /* overflow: hidden; */
         }
     
         .swiper-slide {
-          display: flex;
+          /* display: flex;
           align-items: center;
-          justify-content: center;
+          justify-content: center; */
           border-radius: 18px;
-          font-size: 22px;
-          font-weight: bold;
-          color: #fff;
+          color: #ffffff;
+          overflow: hidden;
+        }
+        .swiper-slide img{ 
+          height: 100%;
+          width: 100%;
         }
     
         .swiper-slide:nth-child(1n) {
           /* background-image: url(/assets/images/Group\ 85.png); */
           background-repeat: no-repeat;
           /* background-blend-mode: normal; */
-          background-color: chartreuse;
+          background-color: rgb(198, 209, 187);
           background-size: contain;
         }
     
@@ -47,7 +51,7 @@
           /* background-image: url(/assets/images/Group\ 86.png); */
           background-repeat: no-repeat;
           background-blend-mode: normal;
-          background-color: cadetblue;
+          background-color: rgb(187, 202, 202);
           background-size: cover;
         }
     
@@ -55,7 +59,7 @@
           /* background-image: url(/assets/images/sample2.png); */
           background-repeat: no-repeat;
           background-blend-mode: normal;
-          background-color: aqua;
+          background-color: rgb(166, 212, 212);
           background-size: contain;
         }
     
@@ -63,7 +67,7 @@
           /* background-image: url(/assets/images/sample4.png); */
           background-repeat: no-repeat;
           background-blend-mode: normal;
-          background-color: brown;
+          background-color: rgb(197, 156, 156);
         }
         /* .swiper-slide:nth-child(5n) {
           background-image: url(/assets/images/sample4.png);
@@ -126,25 +130,24 @@
                         <button type="button" class="cbtn">Contact Us</button>
                     </div>
                 </div>
-                <!-- <div class="col-md-8 d-flex flex-column justify-content-center align-items-start">
-                    <img class="img-fluid" src="/assets/images/Group 85.png" alt=""> 
-                </div> -->
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                        <img src="/assets/images/Group 85.png" alt="" class="img-fluid">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="/assets/images/Group 86.png" alt="" class="img-fluid">
-                      </div>
-                      <div class="swiper-slide">
-                        <img class="img-fluid" src="/assets/images/sample2.png" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img class="img-fluid" src="/assets/images/sample4.png" alt="">
-                      </div>
+                <div class="col-md-8">     
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="/assets/images/Group 85.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/assets/images/Group 86.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="/assets/images/sample2.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="/assets/images/sample4.png" alt="">
+                        </div>
+                        </div>
                     </div>
-                  </div>
+                </div>    
           </div>
         </div>
     </header>
