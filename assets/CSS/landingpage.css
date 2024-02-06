@@ -116,6 +116,10 @@ footer{
     background-image: url(/assets/images/horizontal-banner-hands-people-s.png);
     height: 780px;
     background-color: #fff;
-    opacity: 0.2;
+    opacity: 0.3;
     background-blend-mode: normal;
+}
+.last p{
+    background: transparent;
+    line-height: 35px;
 }
