@@ -80,3 +80,29 @@ nav{
     font-weight: normal;
     font-size: 20px;
 }
+
+.featureheading{
+    font-family: "Ubuntu", sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    color: #5A5781;
+}
+
+.features{
+    background-color: #f4f8f8;
+}
+.feature{
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.feature p{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    color: #5A5781;
+}
