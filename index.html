@@ -70,8 +70,20 @@
           background-color: rgb(197, 156, 156);
         }
       </style>
+      <script>
+        window.addEventListener("load", () => {
+            const loader = document.querySelector(".loader");
+
+            loader.classList.add("loader--hidden");
+
+            loader.addEventListener("transitionend", () => {
+            document.body.removeChild("loader");
+        })
+        })
+      </script>
   </head>
   <body>
+    <div class="loader"></div>
     <header class="main">
         
         <!-- navbar  -->
