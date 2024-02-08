@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/assets/images/Group\ 10.png);
+    background-position: left -40% top -10%;
+    background-repeat: no-repeat;
+}
+
+section {
+    margin: 0 auto;
+    width: 30%;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
