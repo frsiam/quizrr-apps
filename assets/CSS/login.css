@@ -1,4 +1,7 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
 body {
+    font-family: "Ubuntu", sans-serif;
     margin: 0;
     padding: 0;
     background-image: url(/assets/images/Group\ 10.png);
@@ -7,11 +10,42 @@ body {
 }
 
 section {
-    margin: 0 auto;
+    margin: 50px auto;
+    height: 100vh;
     width: 30%;
-}
-
-div {
     display: flex;
     flex-direction: column;
+}
+
+.login-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-heading h1 {
+    color: #5A5781;
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.login-heading p {
+    color: #5A5781;
+    font-weight: 600;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    font-family: FontAwesome;
+}
+
+.login-form input {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
 }
