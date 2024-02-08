@@ -12,7 +12,7 @@ body {
 section {
     margin: 50px auto;
     height: 100vh;
-    width: 30%;
+    width: 25% !important;
     display: flex;
     flex-direction: column;
 }
@@ -42,10 +42,29 @@ section {
 
 input {
     font-family: FontAwesome;
+    background-color: #E3E2FB !important;
+    height: 30px !important;
+    border: none !important;
+    margin-bottom: 10px !important;
+    margin-top: 20px !important;
+    padding: 15px !important;
+    border-radius: 8px !important;
+    font-size: 20px !important;
 }
 
-.login-form input {
-    margin-top: 20px;
-    padding: 10px;
-    border-radius: 10px;
+svg {
+    height: 30px;
+    width: 30px;
+}
+
+.social-link {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    width: 100%;
+    background-color: #736CED;
+    color: white;
 }
