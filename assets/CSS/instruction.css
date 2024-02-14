@@ -3,3 +3,30 @@ span {
     color: #5A5781;
     font-weight: bolder;
 }
+
+.left-side {
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    align-items: center;
+}
+
+.left-side {
+    border: 2px solid red;
+}
+
+.left-side img {
+    margin: 50px;
+}
+
+.left-inside::before {
+    content: "";
+    background: linear-gradient(#FFF1E7, #FEDABF);
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    /* border: none; */
+    border-radius: 50%;
+    z-index: -1;
+}
