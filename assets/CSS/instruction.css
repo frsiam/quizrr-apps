@@ -16,23 +16,12 @@ span {
     margin: 75px;
 }
 
-/* .left-inside::after {
-    content: "";
-    width: 50px;
-    height: 50px;
-    background-color: black;
-    padding: 10px;
-    border: 2px solid orangered;
-    position: absolute;
-} */
-
 .left-inside::before {
     content: "";
     background: linear-gradient(#FFF1E7, #FEDABF);
     position: absolute;
     height: 350px;
     width: 350px;
-    /* border: 2px solid cyan; */
     border-radius: 50%;
     z-index: -1;
 }

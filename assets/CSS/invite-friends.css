@@ -1,0 +1,23 @@
+.refer-btn-one {
+    padding: 10px 96px;
+    outline-style: none;
+    border: 0;
+    font-weight: 700;
+    color: #736CED;
+    font-size: 20px;
+}
+
+.refer-btn-two {
+    padding: 10px 32px;
+    outline-style: none;
+    border: 0;
+    background-color: #736CED;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.refer-btn-one:hover {
+    border: 2px solid #736CED;
+    border-radius: 5px;
+}
