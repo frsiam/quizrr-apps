@@ -1,0 +1,55 @@
+.card {
+    border-radius: 10px !important;
+}
+
+.card-1 {
+    background-color: #E9F8F1;
+    color: #21B573;
+}
+
+.card-1:hover {
+    border: 2px solid #21B573;
+}
+
+.card-2 {
+    background-color: #FFF7EC;
+    color: #FAAF3A;
+}
+
+.card-2:hover {
+    border: 2px solid #FAAF3A;
+}
+
+.card-3 {
+    background-color: #E3E2FB;
+    color: #3748df;
+}
+
+.card-3:hover {
+    border: 2px solid #736CED;
+}
+
+.left-right-arrow {
+    background-color: #E3E2FB;
+    font-weight: light !important;
+}
+
+.bg-number {
+    font-size: 32px;
+    font-weight: 900;
+    background-color: #736CED;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-blank {
+    font-size: 32px;
+    font-weight: 900;
+    background-color: #E9F8F1;
+    color: #707070;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

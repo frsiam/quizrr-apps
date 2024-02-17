@@ -5,6 +5,8 @@
     font-weight: 700;
     color: #736CED;
     font-size: 20px;
+    border: 2px solid #736CED;
+    border-radius: 10px;
 }
 
 .refer-btn-two {
@@ -15,9 +17,5 @@
     color: white;
     font-weight: 700;
     font-size: 20px;
-}
-
-.refer-btn-one:hover {
-    border: 2px solid #736CED;
-    border-radius: 5px;
+    border-radius: 10px;
 }
